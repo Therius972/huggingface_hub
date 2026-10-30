@@ -18,12 +18,12 @@
 
 {{ model_description | default("", true) }}
 
-- **Developed by:** {{ developers | default("[More Information Needed]", true)}}
-- **Funded by [optional]:** {{ funded_by | default("[More Information Needed]", true)}}
-- **Shared by [optional]:** {{ shared_by | default("[More Information Needed]", true)}}
-- **Model type:** {{ model_type | default("[More Information Needed]", true)}}
-- **Language(s) (NLP):** {{ language | default("[More Information Needed]", true)}}
-- **License:** {{ license | default("[More Information Needed]", true)}}
+- **Developed by:** {{ developers | default("[Especializacion Compliance]", true)}}
+- **Funded by [optional]:** {{ funded_by | default("[Juan David Triana]", true)}}
+- **Shared by [optional]:** {{ shared_by | default("[Juan David Triana]", true)}}
+- **Model type:** {{ model_type | default("[1.0 Quejas]", true)}}
+- **Language(s) (NLP):** {{ language | default("[Spanish]", true)}}
+- **License:** {{ license | default("[Open]", true)}}
 - **Finetuned from model [optional]:** {{ base_model | default("[More Information Needed]", true)}}
 
 ### Model Sources [optional]
